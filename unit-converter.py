@@ -42,7 +42,7 @@ elif category == "Weight":
    unit = st.selectbox("⚖️ select Conversation",["Kilograms to Pounds","Pounds to Kilograms"])
 
 elif category == "Time":
-   unit = st.selectbox("��� select Conversation",["Seconds to Minutes","Minutes to Seconds","Minutes to Hours","Hours to Minutes","Hours to Days","Days to Hours"])   
+   unit = st.selectbox("⏱️ select Conversation",["Seconds to Minutes","Minutes to Seconds","Minutes to Hours","Hours to Minutes","Hours to Days","Days to Hours"])   
 
 value = st.number_input("Enter the value to convert")
 
